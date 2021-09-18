@@ -23,6 +23,8 @@
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
 }
+
+/* Desktop */
 @media screen and (min-width: 768px){
     :root{
         --big-font-size: 10.5rem;
@@ -127,6 +129,8 @@ img{
     justify-content: space-between;
     align-items: center;
 }
+
+/* Mobile */
 @media screen and (max-width: 768px){
     .nav__menu{
         position: fixed;
